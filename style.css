@@ -3,7 +3,13 @@ html { scroll-behavior: smooth; }
 .vinay{
     text-transform: uppercase;
 }
-
+.date-time{
+    color: white;
+    position:absolute;
+    right: 1%;
+    top:9%;
+    opacity: 0.8;
+}
 .Home{
     background-color: #b2c8a1;
     text-align: center;
@@ -100,7 +106,7 @@ html { scroll-behavior: smooth; }
     color: rgb(162, 84, 84);
     font-weight:bold;
     font-size:20px;
-    padding: 10% 5% 0% 5%;
+    margin: 10% 5% 0% 5%;
 }
 .copyright{
     /* position: relative;

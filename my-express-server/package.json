@@ -1,0 +1,23 @@
+{
+  "name": "web_infromation",
+  "version": "1.0.0",
+  "description": "\"This is a portfolio website to give information about my educational background and my skills\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinay5656/Vinay-Chouhan.git"
+  },
+  "author": "Vinay Singh Chouhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinay5656/Vinay-Chouhan/issues"
+  },
+  "homepage": "https://github.com/vinay5656/Vinay-Chouhan#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
