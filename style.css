@@ -1,119 +1,154 @@
-html { scroll-behavior: smooth; } 
+html {
+  scroll-behavior: smooth;
+}
 
-.vinay{
-    text-transform: uppercase;
+.vinay {
+  text-transform: uppercase;
 }
-.date-time{
-    color: white;
-    position:absolute;
-    right: 1%;
-    top:9%;
-    opacity: 0.8;
+.date-time {
+  color: white;
+  position: absolute;
+  right: 1%;
+  top: 9%;
+  opacity: 0.8;
 }
-.Home{
-    background-color: #b2c8a1;
-    text-align: center;
-    width: 100%;
-    padding: 80px 0px 35px 0px;
-    /* position: relative;
+.Home {
+  background-color: #bacdac;
+  text-align: center;
+  width: 100%;
+  padding: 80px 0px 35px 0px;
+  /* position: relative;
     top: 50px; */
 }
-.intro{
-    display:block;
-    padding-top: 17px;
+.intro {
+  display: block;
+  padding-top: 17px;
 }
-.intro-h1{
-    color: rgb(148, 181, 74);
+.intro-h1 {
+  color: rgb(148, 181, 74);
 }
-.home-h4{
-    opacity: 0.8;
+.home-h4 {
+  opacity: 0.8;
 }
-.homeImage{
-    width: 9rem;
+.homeImage {
+  width: 9rem;
 }
-.About-me{
-    text-align: left;
-    width: 100%;
-    background-color: #a18a97;
-    padding: 5% 0%;
-    /* position: relative;
-    top: 50px; */
-    
-}
-
-.about-div{
-    padding-left: 15%;
-}
-
-.about-heading{
-    color: rgb(111, 111, 186);
-    font-size: 120%;
-}
-
-.about-text{
-    width: 80%;
-    font-size:110%;
-
-}
-
-.Certified{
-    background-color: #b2c8a1;
-    padding: 5% 0%;
-    /* position: relative;
+.About-me {
+  text-align: left;
+  width: 100%;
+  background-color: #af96a4;
+  padding: 5% 0%;
+  /* position: relative;
     top: 50px; */
 }
 
-.Skills{
-    background-color: #a18a97;
-    padding: 5% 0%;
-    /* position: relative;
-    top: 50px; */
-}
-.Skills-heading{
-    padding-left: 13.5%;
-    color: rgb(111, 111, 186);
-    font-size: 120%;
-    text-transform: uppercase;
+.about-div {
+  padding-left: 15%;
 }
 
-.Education{
-    background-color: #b2c8a1;
-    padding: 5% 0%;
-    padding-left: 13.5%;
-    /* position: relative;
-    top: 50px; */
-}
-.Education-heading{
-    
-    color: rgb(111, 111, 186);
-    font-size: 120%;
-    text-transform: uppercase;
+.about-heading {
+  color: rgb(111, 111, 186);
+  font-size: 120%;
 }
 
-.Contact{
-    background-color: #a18a97;
-    text-align: center;
-    padding: 5% 0%;
-    /* position: relative;
+.about-text {
+  width: 80%;
+  font-size: 110%;
+}
+
+.Certified {
+  background-color: #bacdac;
+  padding: 5% 0%;
+  /* position: relative;
     top: 50px; */
 }
 
-.contact-h3{
-    padding-bottom: 3%;
+.Skills {
+  background-color: #af96a4;
+  padding: 5% 0%;
+  /* position: relative;
+    top: 50px; */
+}
+.Skills-heading {
+  padding-left: 13.5%;
+  color: rgb(111, 111, 186);
+  font-size: 120%;
+  text-transform: uppercase;
 }
 
-.contact-a{
-    color: rgb(162, 84, 84);
-    font-weight:bold;
-    font-size:20px;
-    margin: 10% 5% 0% 5%;
-}
-.copyright{
-    /* position: relative;
+.Education {
+  background-color: #bacdac;
+  padding: 5% 0%;
+  padding-left: 13.5%;
+  /* position: relative;
     top: 50px; */
-    color: rgb(240, 231, 216);
-    opacity: 0.5;
-    text-align: center;
-    background-color: rgb(72, 59, 59);
-   
+}
+.Education-heading {
+  color: rgb(111, 111, 186);
+  font-size: 120%;
+  text-transform: uppercase;
+}
+.profiles {
+  background-color: #d9e0c8;
+}
+.conding {
+  display: flex;
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  /* justify-content: space-around; */
+}
+.image-span {
+  padding: 5% 0.1%;
+}
+
+.code-logo {
+  display: flex;
+  margin: 0%;
+  padding-top: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.code-h3 {
+  color: rgb(111, 111, 186);
+  opacity: 0.7;
+}
+
+.logo-img {
+  width: 2rem;
+  height: 2.1rem;
+}
+.coding-image {
+  width: 5rem;
+  height: 5rem;
+  border: 0.1rem solid rgb(111, 111, 186);
+  border-radius: 50%;
+  /* padding-left: 0% 5%; */
+}
+
+.Contact {
+  background-color: #af96a4;
+  text-align: center;
+  padding: 5% 0%;
+  /* position: relative;
+    top: 50px; */
+}
+
+.contact-h3 {
+  padding-bottom: 3%;
+}
+
+.contact-a {
+  color: rgb(162, 84, 84);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10% 5% 0% 5%;
+}
+.copyright {
+  /* position: relative;
+    top: 50px; */
+  color: rgb(240, 231, 216);
+  opacity: 0.5;
+  text-align: center;
+  background-color: rgb(72, 59, 59);
 }
